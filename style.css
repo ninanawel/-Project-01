@@ -1,0 +1,107 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  width:100%;
+  height: 3000px;
+}
+
+header{
+  width: 100%;
+  height: 180px;
+  background-color: #ffffff;
+}
+.had2{
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  text-align: right;
+}
+
+.a01 h3{
+  text-align: right;
+  font-size: 15px;
+  color: white;
+  padding-right: 20px;
+}
+
+.logo{
+  text-align: left;
+  position: absolute; left: 33px ; top: 86px;
+}
+
+.list{
+  text-align: right;
+  position: absolute; left: 808px; top: 74px;
+}
+
+ul{
+    list-style-type:none;
+    margin:0px;
+    padding:10px;
+
+
+}
+
+ul li{
+
+	list-style:none;
+	float:right;
+	font-size:15px;
+
+	line-height:45px;
+	font-weight:bold;
+  padding:0 15px 0 0;
+	margin:0 15px 0 0;
+}
+
+
+li a{
+
+    display:block;
+    text-decoration:none;
+    color: #231c23;
+}
+
+li a:hover{
+  border-bottom: solid 2px;
+}
+
+/*---------------Containt---------*/
+
+.containt{
+
+}
+
+.pct img{
+  width: 100%;
+  height: 445px;
+}
+
+/*-------------con2--------------*/
+
+.con2{
+  width: 85%;
+  height: 103px;
+  text-align: center;
+  background-color: #1c1c1c;
+  position: absolute;  top: 558px;  left:104px;
+}
+
+.con2 input{
+  width:220px  ;
+  height: 41px;
+  margin-top: 25px;
+  margin-left: 13px;
+}
+
+.con2 button{
+  width: 200px;
+  height: 40px;
+  margin-top: 25px;
+  margin-left: 13px;
+  background-color: #bf9958;
+  color: white;
+  border: none; 
+}
